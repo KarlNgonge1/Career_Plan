@@ -2,7 +2,8 @@ import { useState } from "react"
 import { CHARACTERS } from "./data/characters"
 import CharacterCard from "./components/CharacterCard"
 
-const API_URL = "http://localhost:8000"
+const API_URL = "https://career-plan-backend.onrender.com";
+const response = await fetch(`${API_BASE}/some-endpoint`);
 
 const EXERCISE_NAMES = {
   "pushup": "Push-ups",
